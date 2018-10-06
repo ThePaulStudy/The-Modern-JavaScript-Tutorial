@@ -69,17 +69,6 @@ const TEMPLATE_ALL = `${TEMPLATE_BASE}/**/*.nunj`;
 const HTML_ALL = `${DEVELOPMENT_BASE}/*.html`;
 const HTML_BUILD = `${BUILD_BASE}/*.html`;
 
-/* Styleguide */
-const STYLEGUIDE_BASE = './styleguide';
-const STYLEGUIDE_HOMEPAGE = '../../styleguide.md';
-const STYLEGUIDE_DEST = `${STYLEGUIDE_BASE}/styleguide`;
-const STYLEGUIDE_TEMPLATE = `${NPM}/styleguide/dist`;
-const STYLEGUIDE_CSS = [
-  `${CSS_TPL_PATH}/main.css`,
-  'https://fonts.googleapis.com/css?family=Roboto:400,700:latin',
-];
-const STYLEGUIDE_JS = [`${JS_TPL_PATH}/app.js`];
-
 // deploy
 const DEPLOY_HOST = '';
 const DEPLOY_USERNAME = '';
@@ -145,13 +134,6 @@ module.exports = {
   TEMPLATE_ALL,
   HTML_ALL,
   HTML_BUILD,
-
-  STYLEGUIDE_BASE,
-  STYLEGUIDE_HOMEPAGE,
-  STYLEGUIDE_DEST,
-  STYLEGUIDE_TEMPLATE,
-  STYLEGUIDE_CSS,
-  STYLEGUIDE_JS,
 
   DEPLOY_HOST,
   DEPLOY_USERNAME,

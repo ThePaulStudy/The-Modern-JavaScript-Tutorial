@@ -17,7 +17,6 @@ const buildDest = `${config.DEPLOY_DEST}/${jobName}`;
 
 gulp.task('compress', () =>
   gulp
-    .src(`${config.STYLEGUIDE_DEST}/**`)
     .pipe(tar(buildFile))
     .pipe(gzip())
     .pipe(gulp.dest('.')),

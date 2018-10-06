@@ -10,7 +10,6 @@ const devSequence = [
   'clean',
   ['images', 'svg', 'styles', 'js'],
   'tpl',
-  'styleguide',
   'copySgAssets',
 ];
 if (config.environment.isApi) {
