@@ -1,0 +1,14 @@
+{% block content %}
+    <script>
+        alert("I’m JavaScript!");
+    </script>
+    <script>
+        let admin, name; // can declare two variables at once
+
+        name = "John";
+
+        admin = name;
+
+        alert( admin ); // "John"
+    </script>
+{% endblock %}

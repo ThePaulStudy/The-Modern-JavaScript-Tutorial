@@ -1,0 +1,7 @@
+{% extends "layouts/default.nunj" %}
+
+{% set title = "JavaScript Fundamentals" %}
+
+{% block content %}
+    {% include "./components/hello-world.nunj" %}
+{% endblock %}

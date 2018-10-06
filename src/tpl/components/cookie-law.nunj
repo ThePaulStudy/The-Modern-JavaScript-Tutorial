@@ -1,5 +1,0 @@
-<div class="alert alert-info cookie js-cookie is-hidden" data-cookie-name="cookieName" data-cookie-value="cookieValue" role="alert">
-    Our website uses cookies. By continuing we assume your permission to deploy cookies, as detailed in our <a class='cookie__link' href="#">Privacy privacy and cookies policy</a>
-
-    <button class="btn btn--primary js-cookie-btn">I agree</button>
-</div>
